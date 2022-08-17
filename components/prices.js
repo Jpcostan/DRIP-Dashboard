@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 
-let imgs = {"DOGS": "/dogs_icon.png", "PIGS": "/pigs_icon.png", "DRIP":"/drip_logo.svg", "REV": "/rev_icon.png", "GRIM": "/grim_icon.png"};
+let imgs = {"DOGS": "/dogs_icon.png", "PIGS": "/pigs_icon.png", "DRIP":"/drip_logo.svg", "REV": "/rev_icon.png", "GRIM": "/grim_icon.png", "BR3AP": "/grim_icon.png"};
 
 export default function Prices({token_info}){
   return(
