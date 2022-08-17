@@ -24,3 +24,7 @@ Source repo for Aleph Dashboard, made using React+Next.js
 
 ## Changelog 1.5
 * Fixed Pricing Grid, added responsiveness
+
+## Changelog 1.5
+* Added BR3AP token prices to prices table.
+* Added blank table/html for R3AP DAO
