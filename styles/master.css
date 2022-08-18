@@ -18,12 +18,13 @@
   color: hsla(0,0%,100%,.96);
   text-shadow: 0 0 80px rgb(192 219 255 / 48%), 0 0 32px rgb(65 120 255 / 24%);
   margin: 15px 0;
+  padding-left:17%; 
 }
 
 .sidebar{
   position: absolute;
-  width: 300px;
-  height: 1024px;
+  width: 15%;
+  height: 100vmax;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, rgba(52, 174, 237, 0.28) 0%, rgba(27, 25, 66, 0.85) 57.44%, #17163B 100%);
@@ -35,8 +36,8 @@
   position: absolute;
   width: 141px;
   height: 175px;
-  left: 85px;
-  top: 15px;
+  left: 15%;
+  top: 5%;
   background: url(../public/drip-guy.png);
 }
 

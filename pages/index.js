@@ -12,7 +12,7 @@ function Home({price_data}) {
   return (
     <div  className="main-container">
 
-    <div className="sidebar">
+    <div className="sidebar box-column">
       <div className="drip-guy"></div>
     </div>
       <section className="box-row">
