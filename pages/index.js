@@ -12,9 +12,9 @@ function Home({price_data}) {
   return (
     <div  className="main-container">
 
-    {/* <div className="sidebar">
+    <div className="sidebar">
       <div className="drip-guy"></div>
-    </div> */}
+    </div>
       <section className="box-row">
         <h1 className="glow-title main">Drip Syndicate Dashboard</h1>
       </section>
@@ -34,9 +34,9 @@ function Home({price_data}) {
         <div  className="header-h1">
           <h1 className="glow-header">R34P DAO Stats</h1>
         </div>
-        <div  className="grid-panel-neo">
+        {/* <div  className="grid-panel-neo">
           {price_data.map(token_info => (<Price token_info={token_info['name']="BR3AP"} key={token_info.id}/>))}
-        </div>
+        </div> */}
       
       </section>
       {/* Section 3 -  BR34P Token, Reqs with Citadel */}
@@ -79,14 +79,14 @@ export async function getStaticProps() {
   // Prop Array
   let price_data = []
 
-  // DRIP, PIGS, DOGS, REV, GRIM, BR3AP
+  // DRIP, PIGS, DOGS, REV, GRIM, BR3AP 8606
   const keys = ['11093', '17966', '17965', '17172', '11363', '8606']
 
   // id=KEY,KEY,KEY,KEY | This could probably be concated automatically in a for loop, but that would be slower
   let cmc_url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest?id=17965,17966,11093,11363,17172,8606'
 
   // Request will fail if you do not include the dev_key
-  const dev_key = 'YOUR-DEV-KEY-HERE'
+  const dev_key = '4221ec1d-66ae-4784-884c-456563308e82'
 
   // Headers passed in the GET request
   let headers = {'Accepts': 'application/ecmascript', 'X-CMC_PRO_API_KEY': dev_key, 'Accept-Encoding':'deflate, gzip'}
