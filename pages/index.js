@@ -11,10 +11,10 @@ function Home({price_data}) {
 
   return (
     <div  className="main-container">
-
-    <div className="sidebar box-column">
-      <div className="drip-guy"></div>
-    </div>
+      <div className="sidebar box-column">
+        <div className="drip-guy"></div>
+        <h1>Drip Main</h1>
+      </div>
       <section className="box-row">
         <h1 className="glow-title main">Drip Syndicate Dashboard</h1>
       </section>

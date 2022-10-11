@@ -1,0 +1,8 @@
+@media screen and (max-width: 845px){
+    .price-dashboard{
+        padding-left: 0px;
+    }
+    .sidebar{
+        display: none;
+    }
+}
